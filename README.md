@@ -13,3 +13,15 @@ major challenges were :
 
 in the last i'd like to thank mr.Vinit payal and vrventures 
 for choosing me for this wonderful yet challenging task and the constant support during the project
+
+![Capture_connection_list](https://user-images.githubusercontent.com/111138949/190877872-51a62b00-8397-4aad-b5fb-21a67e34a442.PNG)
+![Capture_dag_log_for_vrventues_db](https://user-images.githubusercontent.com/111138949/190877893-2cfd2d6b-ae0b-480e-9397-1243395075ea.PNG)
+![Capture_logs_of_pyhton operator_or_trimmed _or_fetched_data](https://user-images.githubusercontent.com/111138949/190877910-8ce9efe8-735d-4b77-8c86-04bd51361b28.PNG)
+
+![Capture_dags](https://user-images.githubusercontent.com/111138949/190877898-98dde1b2-aa91-4fcd-91b6-ed7fabb45dd8.PNG)
+![Capture_docker](https://user-images.githubusercontent.com/111138949/190877904-2d28aa32-5c90-4385-be50-7de44ed4e17d.PNG)
+![Capture_graph](https://user-images.githubusercontent.com/111138949/190877906-efe36088-5046-4218-9148-184b3bad8f9e.PNG)
+
+
+![Capture](https://user-images.githubusercontent.com/111138949/190877853-911b8795-5ade-4d4d-876b-8f6d3b15348e.PNG)
+![Capture](https://user-images.githubusercontent.com/111138949/190877863-4e17ae92-7248-4147-a382-59334b4145cb.PNG)
