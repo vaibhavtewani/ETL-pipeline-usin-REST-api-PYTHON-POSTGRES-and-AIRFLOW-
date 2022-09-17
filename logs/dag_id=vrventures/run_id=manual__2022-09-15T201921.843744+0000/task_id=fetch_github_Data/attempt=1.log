@@ -1,0 +1,77 @@
+[2022-09-15T20:19:22.845+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: vrventures.fetch_github_Data manual__2022-09-15T20:19:21.843744+00:00 [queued]>
+[2022-09-15T20:19:22.855+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: vrventures.fetch_github_Data manual__2022-09-15T20:19:21.843744+00:00 [queued]>
+[2022-09-15T20:19:22.855+0000] {taskinstance.py:1368} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-15T20:19:22.855+0000] {taskinstance.py:1369} INFO - Starting attempt 1 of 6
+[2022-09-15T20:19:22.856+0000] {taskinstance.py:1370} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-15T20:19:22.868+0000] {taskinstance.py:1389} INFO - Executing <Task(PythonOperator): fetch_github_Data> on 2022-09-15 20:19:21.843744+00:00
+[2022-09-15T20:19:22.872+0000] {standard_task_runner.py:52} INFO - Started process 28297 to run task
+[2022-09-15T20:19:22.875+0000] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'vrventures', 'fetch_github_Data', 'manual__2022-09-15T20:19:21.843744+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/vrventures.py', '--cfg-path', '/tmp/tmp3ism691m', '--error-file', '/tmp/tmpy0s6_hdl']
+[2022-09-15T20:19:22.877+0000] {standard_task_runner.py:80} INFO - Job 9: Subtask fetch_github_Data
+[2022-09-15T20:19:22.937+0000] {task_command.py:371} INFO - Running <TaskInstance: vrventures.fetch_github_Data manual__2022-09-15T20:19:21.843744+00:00 [running]> on host ffd7ac941535
+[2022-09-15T20:19:23.000+0000] {taskinstance.py:1583} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=VRVENTURES
+AIRFLOW_CTX_DAG_ID=vrventures
+AIRFLOW_CTX_TASK_ID=fetch_github_Data
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-15T20:19:21.843744+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-09-15T20:19:21.843744+00:00
+[2022-09-15T20:19:23.424+0000] {logging_mixin.py:115} INFO -  ------------------------------------------------------------------------------------
+[2022-09-15T20:19:23.424+0000] {logging_mixin.py:115} INFO - 787ad60da202f2acb4bf89a4a169e95fce6ca3cd
+[2022-09-15T20:19:23.425+0000] {logging_mixin.py:115} INFO - name: vaibhav
+[2022-09-15T20:19:23.425+0000] {logging_mixin.py:115} INFO - commit: {'name': 'vaibhav', 'email': 'vaibhavtewani2308@gmail.com', 'date': '2022-09-15T16:02:52Z'}
+[2022-09-15T20:19:23.425+0000] {logging_mixin.py:115} INFO - commit message: value testing
+[2022-09-15T20:19:23.426+0000] {logging_mixin.py:115} INFO -  ------------------------------------------------------------------------------------
+[2022-09-15T20:19:23.426+0000] {logging_mixin.py:115} INFO - bd6543adc5a2056c77b61444d9083885bb9aa9ca
+[2022-09-15T20:19:23.426+0000] {logging_mixin.py:115} INFO - name: vaibhav
+[2022-09-15T20:19:23.426+0000] {logging_mixin.py:115} INFO - commit: {'name': 'vaibhav', 'email': 'vaibhavtewani2308@gmail.com', 'date': '2022-09-15T15:05:21Z'}
+[2022-09-15T20:19:23.427+0000] {logging_mixin.py:115} INFO - commit message: testing purpose
+[2022-09-15T20:19:23.427+0000] {logging_mixin.py:115} INFO -  ------------------------------------------------------------------------------------
+[2022-09-15T20:19:23.427+0000] {logging_mixin.py:115} INFO - e38a2e989ce71e09e04e0244e55f75131830b571
+[2022-09-15T20:19:23.428+0000] {logging_mixin.py:115} INFO - name: vaibhav
+[2022-09-15T20:19:23.428+0000] {logging_mixin.py:115} INFO - commit: {'name': 'vaibhav', 'email': 'vaibhavtewani2308@gmail.com', 'date': '2022-09-13T07:37:41Z'}
+[2022-09-15T20:19:23.428+0000] {logging_mixin.py:115} INFO - commit message: adding another test file for testing the etl pipeline
+[2022-09-15T20:19:23.428+0000] {logging_mixin.py:115} INFO -  ------------------------------------------------------------------------------------
+[2022-09-15T20:19:23.429+0000] {logging_mixin.py:115} INFO - 9e4f60f3f9729e8bb44e5dfcdfe5117b2bf7877b
+[2022-09-15T20:19:23.429+0000] {logging_mixin.py:115} INFO - name: vaibhav
+[2022-09-15T20:19:23.429+0000] {logging_mixin.py:115} INFO - commit: {'name': 'vaibhav', 'email': 'vaibhavtewani2308@gmail.com', 'date': '2022-09-13T07:36:47Z'}
+[2022-09-15T20:19:23.430+0000] {logging_mixin.py:115} INFO - commit message: adding a test file for testing the etl pipeline
+[2022-09-15T20:19:23.430+0000] {logging_mixin.py:115} INFO -  ------------------------------------------------------------------------------------
+[2022-09-15T20:19:23.430+0000] {logging_mixin.py:115} INFO - 867b9bc1cfee763b0abb2669571b39a4f918b8d6
+[2022-09-15T20:19:23.430+0000] {logging_mixin.py:115} INFO - name: vaibhav
+[2022-09-15T20:19:23.431+0000] {logging_mixin.py:115} INFO - commit: {'name': 'vaibhav', 'email': 'vaibhavtewani2308@gmail.com', 'date': '2022-09-03T11:23:57Z'}
+[2022-09-15T20:19:23.431+0000] {logging_mixin.py:115} INFO - commit message: learned about resolving the error regarding the driver worker by installing the vc++ and hadoop.dl file in systems and  installing the same python version on both jupitor notebook on both and my system and learned about the virtual env or venv
+[2022-09-15T20:19:23.431+0000] {logging_mixin.py:115} INFO -  ------------------------------------------------------------------------------------
+[2022-09-15T20:19:23.431+0000] {logging_mixin.py:115} INFO - 95897436d3db0fe7f7848cba685e84c5b84ae1b2
+[2022-09-15T20:19:23.432+0000] {logging_mixin.py:115} INFO - name: vaibhav
+[2022-09-15T20:19:23.432+0000] {logging_mixin.py:115} INFO - commit: {'name': 'vaibhav', 'email': 'vaibhavtewani2308@gmail.com', 'date': '2022-08-30T20:05:14Z'}
+[2022-09-15T20:19:23.432+0000] {logging_mixin.py:115} INFO - commit message: some other files related to my pyspark and jupytor notebook
+[2022-09-15T20:19:23.432+0000] {logging_mixin.py:115} INFO -  ------------------------------------------------------------------------------------
+[2022-09-15T20:19:23.432+0000] {logging_mixin.py:115} INFO - 7e2a2444197f95b7d77f108c41463feb490c29bc
+[2022-09-15T20:19:23.433+0000] {logging_mixin.py:115} INFO - name: vaibhav
+[2022-09-15T20:19:23.433+0000] {logging_mixin.py:115} INFO - commit: {'name': 'vaibhav', 'email': 'vaibhavtewani2308@gmail.com', 'date': '2022-08-30T14:18:49Z'}
+[2022-09-15T20:19:23.433+0000] {logging_mixin.py:115} INFO - commit message: added the task files
+[2022-09-15T20:19:23.433+0000] {logging_mixin.py:115} INFO -  ------------------------------------------------------------------------------------
+[2022-09-15T20:19:23.434+0000] {logging_mixin.py:115} INFO - edbc5bc77e7a9257c5072478d44502f98ff9cb9e
+[2022-09-15T20:19:23.434+0000] {logging_mixin.py:115} INFO - name: vaibhav
+[2022-09-15T20:19:23.434+0000] {logging_mixin.py:115} INFO - commit: {'name': 'vaibhav', 'email': 'vaibhavtewani2308@gmail.com', 'date': '2022-08-30T14:15:03Z'}
+[2022-09-15T20:19:23.434+0000] {logging_mixin.py:115} INFO - commit message: added the updated sample with corelation id
+[2022-09-15T20:19:23.435+0000] {logging_mixin.py:115} INFO -  ------------------------------------------------------------------------------------
+[2022-09-15T20:19:23.435+0000] {logging_mixin.py:115} INFO - 8de61ad073abea7f5d94fc91dfaf305d097a82f5
+[2022-09-15T20:19:23.435+0000] {logging_mixin.py:115} INFO - name: vaibhav
+[2022-09-15T20:19:23.435+0000] {logging_mixin.py:115} INFO - commit: {'name': 'vaibhav', 'email': 'vaibhavtewani2308@gmail.com', 'date': '2022-08-30T14:00:09Z'}
+[2022-09-15T20:19:23.436+0000] {logging_mixin.py:115} INFO - commit message: initial commit
+[2022-09-15T20:19:23.436+0000] {logging_mixin.py:115} INFO - --------------------------
+[2022-09-15T20:19:23.436+0000] {logging_mixin.py:115} INFO - --------------------------
+[2022-09-15T20:19:23.436+0000] {logging_mixin.py:115} INFO - --------------------------
+[2022-09-15T20:19:23.437+0000] {logging_mixin.py:115} INFO - --------------------------
+[2022-09-15T20:19:23.437+0000] {logging_mixin.py:115} INFO - --------------------------
+[2022-09-15T20:19:23.437+0000] {logging_mixin.py:115} INFO - --------------------------
+[2022-09-15T20:19:23.437+0000] {logging_mixin.py:115} INFO - --------------------------
+[2022-09-15T20:19:23.438+0000] {logging_mixin.py:115} INFO - --------------------------
+[2022-09-15T20:19:23.438+0000] {logging_mixin.py:115} INFO - --------------------------
+[2022-09-15T20:19:23.529+0000] {python.py:173} INFO - Done. Returned value was: None
+[2022-09-15T20:19:23.541+0000] {taskinstance.py:1412} INFO - Marking task as SUCCESS. dag_id=vrventures, task_id=fetch_github_Data, execution_date=20220915T201921, start_date=20220915T201922, end_date=20220915T201923
+[2022-09-15T20:19:23.568+0000] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-09-15T20:19:23.592+0000] {local_task_job.py:279} INFO - 0 downstream tasks scheduled from follow-on schedule check

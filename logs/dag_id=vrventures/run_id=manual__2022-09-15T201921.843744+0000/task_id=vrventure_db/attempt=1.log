@@ -1,0 +1,31 @@
+[2022-09-15T20:19:22.815+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: vrventures.vrventure_db manual__2022-09-15T20:19:21.843744+00:00 [queued]>
+[2022-09-15T20:19:22.824+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: vrventures.vrventure_db manual__2022-09-15T20:19:21.843744+00:00 [queued]>
+[2022-09-15T20:19:22.825+0000] {taskinstance.py:1368} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-15T20:19:22.825+0000] {taskinstance.py:1369} INFO - Starting attempt 1 of 6
+[2022-09-15T20:19:22.825+0000] {taskinstance.py:1370} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-15T20:19:22.837+0000] {taskinstance.py:1389} INFO - Executing <Task(PostgresOperator): vrventure_db> on 2022-09-15 20:19:21.843744+00:00
+[2022-09-15T20:19:22.841+0000] {standard_task_runner.py:52} INFO - Started process 28296 to run task
+[2022-09-15T20:19:22.844+0000] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'vrventures', 'vrventure_db', 'manual__2022-09-15T20:19:21.843744+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/vrventures.py', '--cfg-path', '/tmp/tmpo8qq3gni', '--error-file', '/tmp/tmpknnc4uee']
+[2022-09-15T20:19:22.846+0000] {standard_task_runner.py:80} INFO - Job 8: Subtask vrventure_db
+[2022-09-15T20:19:22.904+0000] {task_command.py:371} INFO - Running <TaskInstance: vrventures.vrventure_db manual__2022-09-15T20:19:21.843744+00:00 [running]> on host ffd7ac941535
+[2022-09-15T20:19:22.970+0000] {taskinstance.py:1583} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=VRVENTURES
+AIRFLOW_CTX_DAG_ID=vrventures
+AIRFLOW_CTX_TASK_ID=vrventure_db
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-15T20:19:21.843744+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-09-15T20:19:21.843744+00:00
+[2022-09-15T20:19:22.977+0000] {base.py:68} INFO - Using connection ID 'vrventures_db' for task execution.
+[2022-09-15T20:19:22.988+0000] {sql.py:315} INFO - Running statement: CREATE TABLE IF NOT EXISTS github_activities(id int, 
+                                                                    repo_name text, 
+                                                                    type int, 
+                                                                    activity_id varchar(225) , 
+                                                                    author_id varchar(225) , 
+                                                                    created_at varchar(225) ), parameters: None
+[2022-09-15T20:19:22.992+0000] {postgres.py:94} INFO - NOTICE:  relation "github_activities" already exists, skipping
+
+[2022-09-15T20:19:23.003+0000] {taskinstance.py:1412} INFO - Marking task as SUCCESS. dag_id=vrventures, task_id=vrventure_db, execution_date=20220915T201921, start_date=20220915T201922, end_date=20220915T201923
+[2022-09-15T20:19:23.016+0000] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-09-15T20:19:23.040+0000] {local_task_job.py:279} INFO - 0 downstream tasks scheduled from follow-on schedule check
