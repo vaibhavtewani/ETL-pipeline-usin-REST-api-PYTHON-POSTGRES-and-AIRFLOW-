@@ -8,7 +8,7 @@ major challenges were :
 3).shifting on to a new machine atlast was difficult but still was a better dicision 
 4).apache's xcom was not that handy (not designed to handle big data and even small data even 48kb i think is the limit )so have to switched up for
 5).request for an api from a machine was reached so i could'nt run it/fetch it anymore , the solution to this problem can be using pyspark's            dataframe as they were immutable , but i was'nt allowed to use that so..
-6).connectivity of SQL(postgres) in my case was difficult as i was using debeaver and the airflow's connection part need to be regularized in          regular intervals 
+6).connectivity of SQL(postgres) with python in my case was difficult as  i was using debeaver and the airflow's connection part need to be regularized in regular intervals 
 7).for REST api of fetched commit request i've used flask
 
 in the last i'd like to thank mr.Vinit payal and vrventures 
