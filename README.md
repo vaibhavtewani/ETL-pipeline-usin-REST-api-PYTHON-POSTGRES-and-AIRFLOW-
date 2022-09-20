@@ -1,5 +1,4 @@
-# VR_ventures-vinitpayal
-welcome sir a brief on what i'll be doing in the projects given to me regarding the internship. 
+what i'll be doing in the projects given to me 
 this project of ETL process taught me a whole lot of new thing i was lagging and broke my overconfidence as well . although i tried my best 
 major challenges were :
 0).pandas could'nt read csv files on vscode and using anaconda prompt would result in ipynb format instead of .py file which is what actually          airflow needs during the execution of dags so have to drop that thing 
@@ -11,8 +10,7 @@ major challenges were :
 6).connectivity of SQL(postgres) with python in my case was difficult as  i was using debeaver and the airflow's connection part need to be regularized in regular intervals 
 7).for REST api of fetched commit request i've used flask
 
-in the last i'd like to thank mr.Vinit payal and vrventures 
-for choosing me for this wonderful yet challenging task and the constant support during the project
+
 
 ![Capture_connection_list](https://user-images.githubusercontent.com/111138949/190877872-51a62b00-8397-4aad-b5fb-21a67e34a442.PNG)
 ![Capture_dag_log_for_vrventues_db](https://user-images.githubusercontent.com/111138949/190877893-2cfd2d6b-ae0b-480e-9397-1243395075ea.PNG)
